@@ -1,0 +1,36 @@
+.subscribe {
+  width: 570px;
+  margin-left: 93px;
+  &__form {
+    display: flex;
+    align-items: flex-end;
+  }
+  &__icon {
+    display: inline-flex;
+    margin-left: 10px;
+  }
+  &__label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: $main-font;
+    font-weight: 700;
+    line-height: 0.85;
+    color: $primary-white;
+    letter-spacing: 0.03em;
+  }
+  &__input {
+    padding-left: 16px;
+    margin-top: 20px;
+    width: 358px;
+    height: 50px;
+    background: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    transition: border-color $timing-animation;
+    &:focus {
+      border-color: $accent-color;
+    }
+  }
+}

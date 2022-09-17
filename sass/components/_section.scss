@@ -1,0 +1,23 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  &__title {
+    margin-bottom: 50px;
+
+    color: $heading-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    &--hidden {
+      display: none;
+    }
+  }
+  &:nth-child(2) {
+    padding-bottom: 47px;
+  }
+  &:nth-child(3) {
+    padding-top: 47px;
+  }
+}
